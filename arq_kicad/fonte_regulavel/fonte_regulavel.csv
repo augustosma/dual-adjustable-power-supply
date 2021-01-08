@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D4,D5,D3,D6,D2,D7,D8,D1";"D_A-405_P10.16mm_Horizontal";8;"1N4007";;;
+2;"R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"120";;;
+3;"C3,C4";"CP_Radial_D5.0mm_P2.50mm";2;"1u";;;
+4;"J1,J2";"TerminalBlock_bornier-3_P5.08mm";2;"Conn_01x03";;;
+5;"RV1,RV2";"Potentiometer_Piher_T-16H_Single_Horizontal";2;"500";;;
+6;"C1,C2";"CP_Radial_D10.0mm_P5.00mm";2;"2200u";;;
+7;"U1";"TO-220-3_Horizontal_TabDown_Unaligned";1;"LM317_TO-220";;;
+8;"U2";"TO-220-3_Horizontal_TabDown_Unaligned";1;"LM337_TO220";;;

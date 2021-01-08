@@ -1,0 +1,27 @@
+.title KiCad schematic
+.include "/home/name/Documents/projetos/fonte_tensao_regulavel/arq_kicad/ics_models/LM317_TRANS.LIB"
+.include "/home/name/Documents/projetos/fonte_tensao_regulavel/arq_kicad/ics_models/LM337_N_TRANS.LIB"
+D1 V_1 V_in_p 1N4007
+D3 V_2 V_in_p 1N4007
+D2 V_in_n V_1 1N4007
+D4 V_in_n V_2 1N4007
+C1 V_in_p GND 2200u
+C2 GND V_in_n 2200u
+C3 V_p GND 1u
+D5 V_p V_in_p 1N4002
+R1 V_p Net-_R1-Pad2_ 120
+C4 GND V_n 1u
+R2 Net-_R2-Pad1_ V_n 120
+D6 V_in_n V_n 1N4002
+D7 GND V_p 1N4007
+D8 V_n GND 1N4007
+D9 Net-_D9-Pad1_ V_in_p LED
+R3 Net-_D9-Pad1_ GND 1k
+V1 V_1 GND sin(0 18 60)
+V2 GND V_2 sin(0 18 60)
+XU1 V_in_p Net-_R1-Pad2_ V_p V_p LM317_TRANS
+XU2 V_in_n Net-_R2-Pad1_ V_n LM337_N_TRANS
+RV1 Net-_R1-Pad2_ Net-_R1-Pad2_ GND 500
+RV2 GND Net-_R2-Pad1_ Net-_R2-Pad1_ 500
+.tran 1m 100m 
+.end
