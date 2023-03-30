@@ -1,6 +1,7 @@
 # Dual adjustable power supply
 Power supply with positive and negative outputs adjustable from 1.25V to 20 V, max 1 A
 
+<img src="https://user-images.githubusercontent.com/53788598/228732023-560f5e56-20fe-4337-85cb-95b5f7a09e9d.png"  width=80%>
 
 Components: \
 1 single layer copper board (5cm x 10 cm) \
@@ -29,7 +30,6 @@ Pot e R (gain ~18v) \
 2k - 149ohms \
 5k - 373 -> 330ohms \
 10k - 746 ohms -> 750 
-
 
 
 <img src="https://user-images.githubusercontent.com/53788598/228672141-a6f898d7-3182-4063-bc80-801097230844.png" width=50%>
